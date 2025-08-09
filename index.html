@@ -17,7 +17,7 @@
 
 <body>
 
-    <audio class="song" loop autoplay>
+    <audio class="song" loop>
         <source src="./music/hbd.mpeg">
         </source>
         Your browser isn't invited for super fun audio time.
@@ -29,30 +29,11 @@
                 Hi
                 <span id="name">Melisa</span>
             </h1>
-            <p class="two" id="greetingText">I really like your name btw!</p>
+            <p class="two" id="greetingText">You got a really cute name btw!</p>
         </div>
 
         <div class="three">
             <p>It's your birthday!! :D</p>
-        </div>
-
-        <div class="four">
-            <div class="text-box">
-                <p class="hbd-chatbox">Happy birthday to youu, Melisa!! 
-                
-                I am really glad to be your friend and I’m so, so happy to have you in my life. You’re such a wonderful, kind, and genuine person, and I feel incredibly lucky to call you my friend. Even though we’re far apart, you’re always in my thoughts. I hope you’re doing well across the globe, and one day—hopefully—we’ll be in the same city again.
-
-                We’ve been friends for 9 years now (crazy!) and I really hope we’re still going strong. When we’re old, I can already picture us just chilling on a beach in the Maldives and laughing at the wonky coconut tree. Thanks for always putting in the effort to keep our friendship going, even with our busy schedules and the time difference. You’ve been there for me through my ups and downs and I can’t tell you how much that means to me.
-
-                You’re someone I really look up to — strong, independent, funny, and absolutely non-delusional. You may not realised, but you inspire me a lot. And funnily enough, even though I’m older than you, you’ve always felt like a big sister to me. I love how easy it is to talk to you, how you never judge, and how we can always have a laugh.
-
-                I’m putting together a little present for you — it might take a while to get there, but only because I want it to be perfect! So please be patient with me hehe, thx.
-
-                I hope this year brings you all the happiness, success, and love you deserve. May your day be filled with laughter, joy, and all the things that make you happiest. All the best for your research—I hope it goes terrifically well and that this birthday kicks off an amazing year ahead for you!
-
-                Love you loads, my friend 💕
-                </p>
-            </div>
         </div>
 
         <div class="five">
@@ -152,10 +133,61 @@
         </div>
 
         <div class="nine">
-            <p>Okay, now come back and tell me if you liked it.</p>
+            <p>Okay, that's all, love, tell me if you liked it.</p>
             <p id="replay">Or click, if you want to watch it again.</p>
             <p class="last-smile">:)</p>
         </div>
+    </div>
+
+    <div class="four">
+        <div class="text-box">
+            <p class="hbd-chatbox">Happy birthday to youu, Melisa!! 
+            
+            I am really glad to be your friend and I’m so, so happy to have you in my life. You’re such a wonderful, kind, and genuine person, and I feel incredibly lucky to call you my friend. Even though we’re far apart, you’re always in my thoughts. I hope you’re doing well across the globe, and one day—hopefully—we’ll be in the same city again.
+
+            We’ve been friends for 9 years now (crazy!) and I really hope we’ll keep going strong. When we’re old, I can already picture us just chilling on a beach and laughing at the wonky coconut tree. Thanks for always putting in the effort to keep our friendship going, even with our busy schedules and the time difference. You’ve been there for me through my ups and downs and I can’t tell you how much that means to me.
+
+            You’re someone I really look up to — strong, independent, funny, and absolutely non-delusional. You may not realised, but you inspire me a lot. And funnily enough, even though I’m older than you, you’ve always felt like a big sister to me. I love how easy it is to talk to you, how you never judge, and how we can always have a laugh.
+
+            I’m putting together a little present for you — it might take a while to get there, but only because I want it to be perfect! So please be patient with me hehe, thx.
+
+            I hope this year brings you all the happiness, success, and love you deserve. May your day be filled with laughter, joy, and all the things that make you happiest. All the best for your research—I hope it goes terrifically well and that this birthday kicks off an amazing year ahead for you!
+
+            Love you loads, my friend 💕
+            </p>
+        </div>
+    </div>
+
+    <div id="play-container">
+
+    <div style="
+        position: fixed;
+        top: 0; 
+        left: 0; 
+        width: 100vw; 
+        height: 100vh;
+        background: rgba(0, 0, 0, 1); /* almost fully opaque black */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        user-select: none;
+    ">
+        <p style="font-size: 1.5rem; margin-bottom: 20px;">🎵 Tap to play your birthday slideshow with music! 🎵</p>
+        <button id="play-button" style="
+            background: #3085d6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        ">Play Now</button>
+    </div>
     </div>
 
 </body>

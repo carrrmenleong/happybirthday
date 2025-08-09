@@ -28,7 +28,7 @@ body {
   top: 20vh;
 }
 
-.container .four {
+.four {
   left: 0;
   position: absolute;
   right: 0;
@@ -54,17 +54,19 @@ body {
   margin: 0 auto;
   padding: 10px;
   position: relative;
-  width: 600px;
+  max-width: 600px;
+  width: 85%;
+  margin-bottom: 2vh;
 }
 
 .text-box p {
   margin: 0;
   text-align: left;
+  font-size: 1rem;
 }
 
 .hbd-chatbox {
   white-space: pre-line;
-  font-size: 0.75rem;
 }
 
 .text-box span {
@@ -268,7 +270,7 @@ body {
   }
 
   .four .text-box {
-    width: 90%;
+    width: 85%;
   }
 
   .text-box .fake-btn {
