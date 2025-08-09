@@ -28,6 +28,13 @@ body {
   top: 20vh;
 }
 
+.container .four {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 2vh;
+}
+
 .one {
   font-size: 4.5rem;
 }
@@ -53,6 +60,11 @@ body {
 .text-box p {
   margin: 0;
   text-align: left;
+}
+
+.hbd-chatbox {
+  white-space: pre-line;
+  font-size: 0.75rem;
 }
 
 .text-box span {
