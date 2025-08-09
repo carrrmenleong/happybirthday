@@ -136,7 +136,7 @@ body {
 }
 
 .baloons img:nth-child(even) {
-  left: -10%;
+  left: 10%;
 }
 
 .baloons img:nth-child(odd) {
@@ -218,7 +218,7 @@ body {
 }
 
 .wish-hbd {
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 0;
   text-transform: uppercase;
 }
