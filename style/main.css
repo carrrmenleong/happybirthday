@@ -73,15 +73,6 @@ body {
   visibility: hidden;
 }
 
-.text-box .fake-btn {
-  background-color: rgb(21, 161, 237);
-  border-radius: 3px;
-  bottom: -50px;
-  color: #fff;
-  padding: .5rem 1rem;
-  position: absolute;
-  right: 5px;
-}
 
 .five p {
   font-size: 2rem;
@@ -271,11 +262,6 @@ body {
 
   .four .text-box {
     width: 85%;
-  }
-
-  .text-box .fake-btn {
-    bottom: -38px;
-    right: 5px;
   }
 
   .idea-5 span {
