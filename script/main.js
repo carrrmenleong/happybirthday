@@ -123,7 +123,12 @@ const animationTimeline = () => {
         scale: 0.2,
         opacity: 0,
         y: -150,
+        onComplete: () => {
+          // Scroll back to top after .four fades away
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        },
       },
+
       "+=1"
     )
     .from(".idea-1", 0.7, ideaTextTrans)
